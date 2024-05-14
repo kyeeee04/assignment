@@ -16,9 +16,8 @@
       
       
       <!-- fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-      <!-- font awesome -->
-      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="css/fonts_latin.css" rel="stylesheet">
+     
       </head>
    <body>
       <!-- banner bg main start -->
@@ -62,7 +61,7 @@
                <div class="login_menu">
                   <ul>
                      <li><a href="cart.php">
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <img src="images/cart_icon.png" class="cart_image">
                         <span class="padding_10">Cart</span></a>
                      </li>
                
@@ -103,10 +102,10 @@
                      </div>
                   </div>
                   <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
-                  <i class="fa fa-angle-left"></i>
+                  <i class="fa_fa-angle-left"><</i>
                   </a>
                   <a class="carousel-control-next" href="#my_slider" role="button" data-slide="next">
-                  <i class="fa fa-angle-right"></i>
+                  <i class="fa_fa-angle-right">></i>
                   </a>
                </div>
             </div>
@@ -214,10 +213,10 @@
                </div>
             </div>
             <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
+            <i class="fa_fa-angle-left"><</i>
             </a>
             <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-            <i class="fa fa-angle-right"></i>
+            <i class="fa_fa-angle-right">></i>
             </a>
          </div>
 		 <div class="buynow_bt"><a href="bouquet.php">Go More</a></div>
@@ -328,10 +327,10 @@
                </div>
             </div>
             <a class="carousel-control-prev" href="#electronic_main_slider" role="button" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
+            <i class="fa_fa-angle-left"><</i>
             </a>
             <a class="carousel-control-next" href="#electronic_main_slider" role="button" data-slide="next">
-            <i class="fa fa-angle-right"></i>
+            <i class="fa_fa-angle-right">></i>
             </a>
          </div>
 		 <div class="buynow_bt"><a href="balloons.php">Go More</a></div>
@@ -441,10 +440,10 @@
                </div>
             </div>
             <a class="carousel-control-prev" href="#jewellery_main_slider" role="button" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
+            <i class="fa_fa-angle-left"><</i>
             </a>
             <a class="carousel-control-next" href="#jewellery_main_slider" role="button" data-slide="next">
-            <i class="fa fa-angle-right"></i>
+            <i class="fa_fa-angle-right">></i>
             </a>
          </div>
 		 <div class="buynow_bt"><a href="souvenir.php">Go More</a></div>
@@ -463,13 +462,7 @@
          </div>
       </div>
       <!-- footer section end -->
-      <!-- copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <p class="copyright_text">© 2020 All Rights Reserved. Design by <a href="https://html.design">Free html  Templates</a></p>
-         </div>
-      </div>
-      <!-- copyright section end -->
+  
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>

@@ -223,11 +223,11 @@ if(isset($_SESSION["cart_item"])){
          if(isset($_SESSION["cart_item"]) && !empty($_SESSION["cart_item"])) {
       ?>
 
-            <a class="btn btn-primary" href="translation.php">Pay Now</a>
+            <a class="btn btn-primary" href="order.php">Order Now</a>
          <?php
          } else {
             ?>
-            <a class="btn btn-primary" href="unsucessful.php">Pay Now</a>
+            <a class="btn btn-primary" href="unsucessful.php">Order Now</a>
             <?php
          }
       ?>
