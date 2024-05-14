@@ -1,0 +1,52 @@
+body{
+    background-image: url(../images/login_background.jpg);
+	font-family: sans-serif;
+}
+
+a{
+	text-decoration:none;
+	color:white;
+}
+
+.loginbox{
+	padding-top: 10px;
+	width:400px;
+	height:600px;
+	background-color:white;
+	margin: auto;
+}
+
+h3{
+	font-size:25px;
+}
+
+
+p{
+	font-size:20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+	padding: 10px 40px;
+	background-color:EBECF0;
+	border-radius:20px;
+}
+
+.button{
+	padding:10px 30px;
+	font-size:20px;
+	color:black;
+	border-radius:30px;
+}
+
+.button:hover{
+	background-color: orange;
+}
+
+.box2{
+	padding-top: 25px;
+}
+
+.user{
+    text-align: center;
+}
